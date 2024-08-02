@@ -1,5 +1,5 @@
 //App.js
-import "/src/styles.css";
+import "../styles.css";
 import React, { useState } from "react";
 import SearchComponent from "./SearchComponent.js";
 import ShowCourseComponent from "./ShowCourseComponent.js";
