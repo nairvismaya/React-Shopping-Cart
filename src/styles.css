@@ -11,7 +11,7 @@ body {
 }
 
 .App-header {
-  background-color: #6cc24a;
+  background-color: #4ac0c2;
   padding: 20px;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
@@ -321,4 +321,10 @@ body {
 
 .checkout-section .checkout-button:hover {
   background-color: #4c5cb6;
+}
+
+.cart-button{
+  padding: 8px 15px;
+  border-radius: 20px;
+  cursor:pointer;
 }

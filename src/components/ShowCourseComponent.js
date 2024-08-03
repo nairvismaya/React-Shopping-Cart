@@ -16,7 +16,7 @@ function ShowCourseComponent({
             <img src={product.image} alt={product.name} />
             <h2>{product.name}</h2>
             <p>Price: ₹{product.price}</p>
-            <button onClick={() => addCourseToCartFunction(product)}>
+            <button className="cart-button" onClick={() => addCourseToCartFunction(product)}>
               Add to cart
             </button>
           </div>

@@ -96,15 +96,6 @@ function UserCartComponent({
                 Total Amount: ₹{totalAmountCalculationFunction()}
               </p>
             </div>
-            <button
-              className="checkout-button"
-              disabled={
-                cartCourses.length === 0 ||
-                totalAmountCalculationFunction() === 0
-              }
-            >
-              Proceed to Payment
-            </button>
           </div>
         </div>
       )}
